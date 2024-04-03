@@ -26,3 +26,27 @@ Navigate to the project directory:
 
 ```bash
  cd WeatherAppReact
+`````
+
+```bash
+npm install
+`````
+```bash
+Start the development server:
+`````
+
+```bash
+npm start
+`````
+-Open your browser and go to http://localhost:3000 to view the app.
+
+-Enter the name of the city you want to check the weather for in the search bar.
+Click "Get Weather" to see the current weather and 5-day forecast.
+Alternatively, click "Get Weather from My Location" to use your current location.
+You can also add multiple cities for quick access to their weather information.
+
+##Technologies Used
+-React
+-Axios
+-React Router DOM
+-OpenWeatherMap API
