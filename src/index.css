@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.error {
+  color: red;
+}
+
+.current-weather {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.weather-icon img {
+  width: 50px;
+  height: 50px;
+}
+
+.forecast {
+  margin-top: 20px;
+}
+
+.forecast-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.forecast-item {
+  flex: 1;
+}
+
+.forecast-item img {
+  width: 40px;
+  height: 40px;
+}
+
+.weather-page {
+  text-align: center;
+}
+
+.current-weather {
+  background-color: #8a2be2;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.date {
+  font-size: 20px;
+  color: #fff;
+}
+
+.weather-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.weather-icon img {
+  width: 120px;
+  height: 120px;
+  margin-right: 20px;
+}
+
+.temperature {
+  font-size: 36px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.forecast {
+  background-color: #29232e;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.forecast-item {
+  margin-bottom: 10px;
+}
+
+.forecast-item img {
+  width: 50px;
+  height: 50px;
+}
+.weather-page {
+  text-align: center;
+}
+
+.current-weather {
+  background-color: linear-gradient(to bottom, #00008a, #521887);
+
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.date {
+  font-size: 20px;
+  color: #fff;
+}
+
+.weather-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.weather-icon img {
+  width: 120px;
+  height: 120px;
+  margin-right: 20px;
+}
+
+.temperature {
+  font-size: 36px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.extra-info {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.info-item {
+  margin: 0 20px;
+}
+
+.info-item p {
+  font-size: 18px;
+  color: #fff;
+}
+.activities {
+  margin-top: 20px;
+  overflow: hidden;
+  background-color: #29232e;
+}
+
+.activities ul {
+  list-style: none;
+
+  padding: 0;
+  margin: 0;
+  white-space: nowrap;
+  animation: slideAndFade 20s linear infinite;
+}
+
+@keyframes slideAndFade {
+  0% {
+    transform: translateX(100%);
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
+
+.activities ul:hover {
+  animation-play-state: paused;
+}
+
+.activities li {
+  display: inline-block;
+  padding: 0 10px;
+  font-size: 16px;
+}
