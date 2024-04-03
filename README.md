@@ -31,9 +31,6 @@ Navigate to the project directory:
 ```bash
 npm install
 `````
-```bash
-Start the development server:
-`````
 
 ```bash
 npm start
