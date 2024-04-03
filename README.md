@@ -1,5 +1,4 @@
-# weather-app
-# My React Weather App
+# React Weather Forecast App
 Coded by React.JS
 This is a simple React-based weather application that allows users to check the weather for a specific location.
 
