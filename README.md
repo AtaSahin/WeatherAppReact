@@ -42,7 +42,7 @@ Click "Get Weather" to see the current weather and 5-day forecast.
 Alternatively, click "Get Weather from My Location" to use your current location.
 You can also add multiple cities for quick access to their weather information.
 
-##Technologies Used
+## Technologies Used
 -React
 -Axios
 -React Router DOM
