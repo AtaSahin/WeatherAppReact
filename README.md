@@ -43,7 +43,7 @@ Alternatively, click "Get Weather from My Location" to use your current location
 You can also add multiple cities for quick access to their weather information.
 
 ## Technologies Used
--React
--Axios
--React Router DOM
--OpenWeatherMap API
+- React
+- Axios
+- React Router DOM
+- OpenWeatherMap API
