@@ -1,6 +1,5 @@
 # Weather App React
 
-![Weather App React Icon](https://example.com/icon.png)
 
 A weather application built with React that provides accurate weather forecasts for any city worldwide.
 
