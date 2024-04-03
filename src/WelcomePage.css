@@ -32,13 +32,13 @@
 
 .city-form button {
   padding: 10px 20px;
-  background-color: #8a2be2; /* Purple Blue */
-  color: #fff; /* White */
+  background-color: #8a2be2;
+  color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
 .city-form button:hover {
-  background-color: #6a1ca6; /* Darker Purple Blue */
+  background-color: #6a1ca6;
 }

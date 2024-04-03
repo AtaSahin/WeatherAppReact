@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import cloudIcon from "./asset/wfLogo.png";
+import cloudIcon from "../asset/wfLogo.png";
 import axios from "axios";
-import "./WelcomePage.css";
 
 function WelcomePage() {
   const [city, setCity] = useState("");
